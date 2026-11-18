@@ -1,0 +1,76 @@
+{
+  "item": {
+    "id": "com.smalljelly.news",
+    "restype": "quick_app",
+    "name": "随身新闻",
+    "description": "# 随身新闻\n\n**一份戴在手腕上的报纸。**\n\n随身新闻是一款为小米手环打造的新闻阅读快应用。通过配套插件获取新闻并推送到手环，让资讯随身，让阅读触手可及。\n\n## 主要功能\n\n- **插件联动，获取新闻**  \n  通过配套插件获取新闻内容，并推送至手环。\n\n- **抬腕阅读，查看详情**  \n  在手环上浏览新闻标题、发布时间与正文，了解新闻的具体内容。\n\n## 使用方式\n\n在手环上安装「随身新闻」，通过配套插件获取并推送新闻，再打开快应用即可阅读。\n\n通勤途中、排队间隙，让零散的时间，成为了解世界的一刻。",
+    "preview": [
+      "media/95026.png",
+      "media/95028.png",
+      "media/95029.png",
+      "media/95027.png"
+    ],
+    "icon": "media/95004.png",
+    "cover": "media/95016.png",
+    "author": [
+      {
+        "name": "Nyx233",
+        "bindABAccount": true
+      },
+      {
+        "name": "bandbbs_83349",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "QQ交流群",
+      "url": "https://qun.qq.com/universal-share/share?ac=1&authKey=nR2PLHTCPRZj21GL%2F1W2WktghgtWEdV6UtTm6JIB0O98UNa%2ByoFGjSDbi%2F74jE%2FJ&busi_data=eyJncm91cENvZGUiOiI5NzIxNzcyNzEiLCJ0b2tlbiI6IklZNU8zVDkrUXhZWTVLQ2t0NXlvVFMydGF2Vjk1R01XUmxhaUFJK0pza2RzMmUwVXlWaFBMMFFkS3lMYTYvSksiLCJ1aW4iOiIyMTcxNjkyNTgwIn0%3D&data=m8b7G0f9fK5dAiZSFPsR2YGfZjx5WCkzsptmSdBaj06ET7F16SoY3ltvwJDOQcVCSg3pRsl24tf5BvT7lrZwgw&svctype=4&tempid=h5_group_info",
+      "icon": "chat-circle-dots"
+    }
+  ],
+  "downloads": {
+    "xmb10": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.smalljelly.news.release.1.0.0.rpk",
+      "versionCode": 1
+    },
+    "xmb10nfc": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.smalljelly.news.release.1.0.0.rpk",
+      "versionCode": 1
+    },
+    "xmb10p": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.smalljelly.news.release.1.0.0.rpk",
+      "versionCode": 1
+    },
+    "xmb11": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.smalljelly.news.release.1.0.0.rpk",
+      "versionCode": 1
+    },
+    "xmb11nfc": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.smalljelly.news.release.1.0.0.rpk",
+      "versionCode": 1
+    },
+    "xmb9p": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.smalljelly.news.release.1.0.0.rpk",
+      "versionCode": 1
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true,
+    "bundledResources": {
+      "required": [
+        {
+          "type": "plugin",
+          "id": "随身新闻同步器"
+        }
+      ]
+    }
+  }
+}
